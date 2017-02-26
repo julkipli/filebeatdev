@@ -1,0 +1,215 @@
+{
+  "took" : 3,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 5505,
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjG",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.838Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "2017-02-07 18:48:40.847471 EST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/SystemCache.bundle'",
+          "input_type" : "log",
+          "message" : "2017-02-07 18:48:40.847471 EST - AID: 0x0000000000000000 - Loaded bundle at path '/System/Library/OpenDirectory/Modules/SystemCache.bundle'",
+          "offset" : 427,
+          "source" : "/var/log/opendirectoryd.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjI",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.838Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "2017-02-07 18:48:43.190779 EST - AID: 0x0000000000000000 - Registered node with name '/Configure' as hidden",
+          "input_type" : "log",
+          "message" : "2017-02-07 18:48:43.190779 EST - AID: 0x0000000000000000 - Registered node with name '/Configure' as hidden",
+          "offset" : 650,
+          "source" : "/var/log/opendirectoryd.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjP",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.839Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "2017-02-07 18:48:43.196240 EST - AID: 0x0000000000000000 - Registered node with name '/Search'",
+          "input_type" : "log",
+          "message" : "2017-02-07 18:48:43.196240 EST - AID: 0x0000000000000000 - Registered node with name '/Search'",
+          "offset" : 1521,
+          "source" : "/var/log/opendirectoryd.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjU",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.839Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "2017-02-07 18:48:43.207125 EST - AID: 0x0000000000000000 - Successfully registered for Kernel identity service requests",
+          "input_type" : "log",
+          "message" : "2017-02-07 18:48:43.207125 EST - AID: 0x0000000000000000 - Successfully registered for Kernel identity service requests",
+          "offset" : 2115,
+          "source" : "/var/log/opendirectoryd.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjZ",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.839Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "2017-02-07 18:48:43.232351 EST - AID: 0x0000000000000000 - Registered subnode with name '/Local/Default'",
+          "input_type" : "log",
+          "message" : "2017-02-07 18:48:43.232351 EST - AID: 0x0000000000000000 - Registered subnode with name '/Local/Default'",
+          "offset" : 2765,
+          "source" : "/var/log/opendirectoryd.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjf",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.858Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "Feb 06 07:34:17 CCProfileMonitor::profileCallback Entered token:9",
+          "input_type" : "log",
+          "message" : "Feb 06 07:34:17 CCProfileMonitor::profileCallback Entered token:9",
+          "offset" : 1296001,
+          "source" : "/var/log/corecaptured.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA9cHtLu_x10wjh",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.858Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "Feb 06 07:34:17 CCProfileMonitor::profileCallback Entered token:9",
+          "input_type" : "log",
+          "message" : "Feb 06 07:34:17 CCProfileMonitor::profileCallback Entered token:9",
+          "offset" : 1296285,
+          "source" : "/var/log/corecaptured.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA-cHtLu_x10wjk",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.858Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "Feb 06 07:34:17 CCProfileMonitor::setStreamEventHandler Woken up by notifyd.Feb 06 07:34:17 CCProfileMonitor::setStreamEventHandler Woken up by notifyd.Feb 06 07:34:17 CCProfileMonitor::profileCallback Entered token:9",
+          "input_type" : "log",
+          "message" : "Feb 06 07:34:17 CCProfileMonitor::setStreamEventHandler Woken up by notifyd.Feb 06 07:34:17 CCProfileMonitor::setStreamEventHandler Woken up by notifyd.Feb 06 07:34:17 CCProfileMonitor::profileCallback Entered token:9",
+          "offset" : 1296787,
+          "source" : "/var/log/corecaptured.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA-cHtLu_x10wjm",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.858Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "Feb 06 07:35:01 pruneDirectoryNDaysRead cap 7",
+          "input_type" : "log",
+          "message" : "Feb 06 07:35:01 pruneDirectoryNDaysRead cap 7",
+          "offset" : 1296930,
+          "source" : "/var/log/corecaptured.log",
+          "type" : "log"
+        }
+      },
+      {
+        "_index" : "filebeat-2017.02.07",
+        "_type" : "log",
+        "_id" : "AVob2FA-cHtLu_x10wjq",
+        "_score" : 1.0,
+        "_source" : {
+          "@timestamp" : "2017-02-08T03:50:44.858Z",
+          "beat" : {
+            "hostname" : "JulKiplis-iMac.local",
+            "name" : "JulKiplis-iMac.local",
+            "version" : "6.0.0-alpha1"
+          },
+          "cause" : "Feb 06 07:35:32 CCDataTap::profileRemoved, Owner: com.apple.driver.AirPort.Brcm4360.0, Name: StateSnapshots",
+          "input_type" : "log",
+          "message" : "Feb 06 07:35:32 CCDataTap::profileRemoved, Owner: com.apple.driver.AirPort.Brcm4360.0, Name: StateSnapshots",
+          "offset" : 1297200,
+          "source" : "/var/log/corecaptured.log",
+          "type" : "log"
+        }
+      }
+    ]
+  }
+}
